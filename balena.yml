@@ -1,0 +1,24 @@
+name: fan-control
+description: >-
+  Controlling fans on your next SBC project has never been so easy.
+version: 0.1.0
+type: sw.application
+assets:
+  repository:
+    type: blob.asset
+    data:
+      url: 'https://github.com/wolvi-lataniere/fan-control-block'
+  logo:
+    type: blob.asset
+    data:
+      url: 'https://github.com/wolvi-lataniere/fan-control-block/raw/master/logo.png'
+data:
+  defaultDeviceType: raspberrypi3
+  supportedDeviceTypes:
+    - raspberry-pi
+    - raspberrypi4-64
+    - fincm3
+    - raspberrypi3
+    - raspberrypi3-64
+    - raspberrypi400-64
+    - etcher-pro
