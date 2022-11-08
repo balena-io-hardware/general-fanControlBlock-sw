@@ -43,7 +43,7 @@ You also will need to set your service as `privileged` and enable `io.balena.fea
 ```yaml
 services:
   fan-control:
-      image: bh.cr/g_aurelien_valade/fan-control_arm32
+      image: bh.cr/balena/fan_control_arm
       privileged: true
       restart: always
       labels:
@@ -53,7 +53,7 @@ services:
          - 'GPIO="14"'
          - 'THERMAL_ZONE=0'
          - 'THERMAL_LOW=45'
-		 - 'THERMAL_HIGH=65'
+    		 - 'THERMAL_HIGH=65'
 ```
 
 ## Example configuration in PWM mode
@@ -61,13 +61,13 @@ services:
 ```yaml
 services:
   fan-control:
-      image: bh.cr/g_aurelien_valade/fan-control_arm32
-	  privileged: true
+      image: bh.cr/balena/fan_control_arm
+	    privileged: true
       restart: always
       labels:
          io.balena.features.sysfs: 1
       environment:
-	     - 'THERMAL_ZONE=1'
+	       - 'THERMAL_ZONE=1'
          - 'REFRESH_DELAY=10'
          - 'PWM="1,0"'
          - 'PWM_TEMPS="0,40,50,70"'

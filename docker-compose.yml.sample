@@ -2,7 +2,7 @@ version: '2'
 
 services:
   fan-control:
-      image: bh.cr/g_aurelien_valade/fan-control_arm32 
+      image: bh.cr/balena/fan_control_arm 
       privileged: true
       restart: always
       labels:

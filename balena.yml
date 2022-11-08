@@ -7,11 +7,11 @@ assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/wolvi-lataniere/fan-control-block'
+      url: 'https://github.com/balena-io-hardware/fan-control-block'
   logo:
     type: blob.asset
     data:
-      url: 'https://github.com/wolvi-lataniere/fan-control-block/raw/master/logo.png'
+      url: 'https://github.com/balena-io-hardware/fan-control-block/raw/master/logo.png'
 data:
   defaultDeviceType: raspberrypi3
   supportedDeviceTypes:
