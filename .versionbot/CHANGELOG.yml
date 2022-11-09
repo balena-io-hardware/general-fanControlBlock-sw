@@ -1,0 +1,29 @@
+- commits:
+    - subject: Adding repo.yml for versionist management
+      hash: 9a45b0f9312a0b4cf6966e99e82626ee80f23422
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Aurelien VALADE
+      nested: []
+    - subject: Adding balena_slugs to the project in flowzone.yml
+      hash: 493c1ebe08fecc82c73bee748421192797d466d9
+      body: |
+        Trying to add `balena_slugs` to `flowzone.yml` to auto-publish.
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Aurelien VALADE
+      nested: []
+    - subject: Cleanning up documentation for first release
+      hash: 20d6912a50a0c560819d5864e6afd1eebcdbf43a
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Aurelien VALADE
+      nested: []
+  version: 0.1.0
+  title: ""
+  date: 2022-11-09T13:16:52.289Z
