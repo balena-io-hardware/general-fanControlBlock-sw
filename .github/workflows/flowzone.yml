@@ -14,4 +14,4 @@ jobs:
     # https://github.com/balena-io-hardware/EtcherPro-Fleet/settings/secrets/actions
     secrets: inherit
     with:
-      balena_slugs: balena/etcherpro_production
+      balena_slugs: balena/fan_control_arm
