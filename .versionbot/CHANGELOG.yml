@@ -1,4 +1,19 @@
 - commits:
+    - subject: Adding restrart policy mechanism
+      hash: 6749853022a930d1b94a9ac750c09bff089d75bd
+      body: >
+        To prevent the script from cashlooping when the device is not available,
+        adding a `restart_policy` script that will retry running the fan control
+        script 5 times before waiting indefinitely.
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Aurelien VALADE
+      nested: []
+  version: 0.1.1
+  title: ""
+  date: 2022-11-11T12:37:47.436Z
+- commits:
     - subject: Adding repo.yml for versionist management
       hash: 9a45b0f9312a0b4cf6966e99e82626ee80f23422
       body: ""
